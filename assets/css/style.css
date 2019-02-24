@@ -40,6 +40,12 @@ h1#prt {
     top: -25px;
     left: 300px;
 }
+
+h1#ctc {
+    position: relative;
+    top: -25px;
+    left: 200px;
+}
 span {
     word-spacing: 2px;
     font-weight: bold;
@@ -84,11 +90,25 @@ h2 {
     line-height: 34px; 
   
 }
-
+/*
+Specific height and width for div container's on Portfilio and Contact pages
+*/
 .container.prt{
     height: 900px;
     width: 650px;
 }
+.container.ctc{
+    height: 450px;
+    width: 850px;
+}
+
+
+.form {
+    padding-left: 20px;
+}
+
+
+
 hr{
     border-top-style: solid;
     border-color: #777777;
@@ -107,6 +127,9 @@ a:focus{
     color: black;
     cursor: pointer;
 }
+/*
+About Section 
+*/
 
 #image-bio,
 #about-me {
@@ -131,6 +154,9 @@ p{
     
 }
 
+/*
+Portfolio section only  
+*/
 .firstcolumn{
     float: left;
     padding-left: 50px;
@@ -186,6 +212,11 @@ p{
     position: relative;
     bottom: -150px;
 }
+
+
+/*
+Footer section for all pages 
+*/
 footer{
     width: 100%;
     background-color: #666666;
